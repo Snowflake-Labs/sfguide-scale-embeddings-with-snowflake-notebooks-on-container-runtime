@@ -1,3 +1,5 @@
+[![Snowflake - Certified](https://img.shields.io/badge/Snowflake-Certified-2ea44f?style=for-the-badge&logo=snowflake)](https://developers.snowflake.com/solutions/)
+
 # Scale Embeddings with Snowflake Notebooks on Container Runtime
 
 ## Overview
