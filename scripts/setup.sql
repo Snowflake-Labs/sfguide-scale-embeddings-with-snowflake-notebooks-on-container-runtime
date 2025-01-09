@@ -4,7 +4,7 @@ SELECT $USERNAME;
 
 -- Using ACCOUNTADMIN, create a new role for this exercise and grant to applicable users
 CREATE OR REPLACE ROLE EMBEDDING_MODEL_HOL_USER;
-GRANT ROLE EMBEDDING_MODEL_QUICKSTART_USER to USER identifier($USERNAME);
+GRANT ROLE EMBEDDING_MODEL_HOL_USER to USER identifier($USERNAME);
 
 -- Next create a new database and schema,
 CREATE DATABASE IF NOT EXISTS EMBEDDING_MODEL_HOL_DB;
